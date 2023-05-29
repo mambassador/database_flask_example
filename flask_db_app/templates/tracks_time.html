@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Track Durations</title>
+</head>
+<body>
+    <h1>Track Durations</h1>
+    <ul>
+        {% for track in tracks %}
+        <li>{{ track[0] }} - {{ track[1] }} seconds</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
